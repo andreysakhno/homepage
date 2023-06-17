@@ -102,6 +102,11 @@ body {
    text-decoration: none;
    display: flex;
    justify-content: start;
+   transition: color ease .5s;
+}
+
+.contact-info__item:hover {
+   color: var(--text-decoration-color);
 }
 
 .contact-info__item:not(:last-child) {
@@ -158,6 +163,10 @@ body {
 .intro_text {
    color: var(--secondary-text-color);
    text-align: justify;
+}
+
+.intro_text p:not(:last-child){
+   margin-bottom: 10px;
 }
 
 .skills__header {
